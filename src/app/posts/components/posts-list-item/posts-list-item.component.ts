@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Post } from '../../interfaces/post.interface';
 
 @Component({
   selector: 'app-posts-list-item',
@@ -7,13 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostsListItemComponent implements OnInit {
 
-  post = {
-    time: new Date()
-  }
+  @Input()
+  post: Post;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  getAuthorLink() {
+    return `/author/${this.post.author.id}`;
+  }
+
+  getPostLink() {
+    return `/posts/${this.post.id}`;
+  }
 }

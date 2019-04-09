@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localePL from '@angular/common/locales/pl';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './core-routing.module';
 import { AppComponent } from './components/app/app.component';
@@ -17,6 +18,7 @@ registerLocaleData(localePL);
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     PostsModule
   ],
