@@ -3,7 +3,7 @@
     "logo": "https://github.com/rafinskipg/git-changelog/raw/master/images/git-changelog-logo.png",
     "intro": "",
     "branch" : "",
-    "repo_url": "",
+    "repo_url": "https://github.com/pawtwa/angular-test-facebook",
     "version_name" : "v1.0.0",
     "file": "CHANGELOG.md",
     "template": "",
