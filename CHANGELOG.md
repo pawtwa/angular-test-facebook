@@ -17,6 +17,12 @@ __Git Changelog__
   ([57ed5b8d](https://github.com/pawtwa/angular-test-facebook/commit/57ed5b8d6b55c93357ada8536d7529aaf5ff1f8d))
 
 
+## Documentation
+
+- **changelog:** generate changelog
+  ([038e3b31](https://github.com/pawtwa/angular-test-facebook/commit/038e3b3122d5dd9763871df38fa62005464a6a32))
+
+
 
 ---
 <sub><sup>*Generated with [git-changelog](https://github.com/rafinskipg/git-changelog). If you have any problems or suggestions, create an issue.* :) **Thanks** </sub></sup>
