@@ -8,6 +8,12 @@ __Git Changelog__
 
 ---
 
+## Bug Fixes
+
+- **core:** fix app component resources paths
+  ([1918fb26](https://github.com/pawtwa/angular-test-facebook/commit/1918fb26bdb734562f4fc3f03ea1f70e17cf9e76))
+
+
 ## Features
 
 - **changelog:**
@@ -22,6 +28,8 @@ __Git Changelog__
 ## Documentation
 
 - **changelog:**
+  - generate changelog
+  ([1934fad5](https://github.com/pawtwa/angular-test-facebook/commit/1934fad5ebfe94f49e0f82abbd2648bf0c94916c))
   - generate changelog
   ([d3847256](https://github.com/pawtwa/angular-test-facebook/commit/d38472566da4707db457024b161ea0c58465c22b))
   - generate changelog
