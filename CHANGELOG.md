@@ -23,9 +23,17 @@ __Git Changelog__
 
 - **changelog:**
   - generate changelog
+  ([fc659408](https://github.com/pawtwa/angular-test-facebook/commit/fc659408f7fce1c3a828a09be56f4c47f99dab8e))
+  - generate changelog
   ([d8682e7c](https://github.com/pawtwa/angular-test-facebook/commit/d8682e7c35b3d42c9e907c78b49bc13b56c4c95c))
   - generate changelog
   ([038e3b31](https://github.com/pawtwa/angular-test-facebook/commit/038e3b3122d5dd9763871df38fa62005464a6a32))
+
+
+## Refactor
+
+- **core:** create core module
+  ([5c2c515e](https://github.com/pawtwa/angular-test-facebook/commit/5c2c515eb74067b5c2a0d42c037238851e6434af))
 
 
 
