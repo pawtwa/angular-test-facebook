@@ -10,7 +10,10 @@ __Git Changelog__
 
 ## Features
 
-- **changelog:** configure environment
+- **changelog:**
+  - configure changelog
+  ([31f09b73](https://github.com/pawtwa/angular-test-facebook/commit/31f09b730acb491e672aa986603c7b85c5793e72))
+  - configure environment
   ([57ed5b8d](https://github.com/pawtwa/angular-test-facebook/commit/57ed5b8d6b55c93357ada8536d7529aaf5ff1f8d))
 
 
