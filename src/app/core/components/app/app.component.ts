@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './core.component.html',
   styleUrls: ['./core.component.scss']
 })
-export class CoreComponent {
+export class AppComponent {
   title = 'angular-test-facebook';
 }
