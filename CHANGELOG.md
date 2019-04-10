@@ -1,3 +1,13 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/pawtwa/angular-test-facebook/compare/v1.1.0...v1.2.0) (2019-04-10)
+
+
+### Features
+
+* **cache:** create http interceptor with cache service ([f79ace4](https://github.com/pawtwa/angular-test-facebook/commit/f79ace4))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/pawtwa/angular-test-facebook/compare/v1.0.7...v1.1.0) (2019-04-10)
 
