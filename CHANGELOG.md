@@ -1,3 +1,13 @@
+<a name="1.0.7"></a>
+## [1.0.7](https://github.com/pawtwa/angular-test-facebook/compare/v1.0.6...v1.0.7) (2019-04-10)
+
+
+### Features
+
+* **posts:** display single post page ([4f06d54](https://github.com/pawtwa/angular-test-facebook/commit/4f06d54))
+
+
+
 <a name="1.0.6"></a>
 ## [1.0.6](https://github.com/pawtwa/angular-test-facebook/compare/v1.0.5...v1.0.6) (2019-04-10)
 
