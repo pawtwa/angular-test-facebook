@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "changelog": "git-changelog -e",
-    "predeploy": "ng build --base-href=/angular-test-facebook/",
+    "predeploy": "ng build --prod --base-href=\"/angular-test-facebook/\" --deploy-url=\"\"",
     "deploy": "gh-pages -d dist/angular-test-facebook/"
   },
   "private": true,
