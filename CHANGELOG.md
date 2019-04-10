@@ -1,3 +1,8 @@
+<a name="1.2.2"></a>
+## [1.2.2](https://github.com/pawtwa/angular-test-facebook/compare/v1.2.1...v1.2.2) (2019-04-10)
+
+
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/pawtwa/angular-test-facebook/compare/v1.2.0...v1.2.1) (2019-04-10)
 
