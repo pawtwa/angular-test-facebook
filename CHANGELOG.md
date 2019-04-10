@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/pawtwa/angular-test-facebook/compare/v1.0.7...v1.1.0) (2019-04-10)
+
+
+### Features
+
+* **users:** create user profile page ([8a22708](https://github.com/pawtwa/angular-test-facebook/commit/8a22708))
+
+
+
 <a name="1.0.7"></a>
 ## [1.0.7](https://github.com/pawtwa/angular-test-facebook/compare/v1.0.6...v1.0.7) (2019-04-10)
 
