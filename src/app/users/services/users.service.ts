@@ -19,6 +19,7 @@ export class UsersService {
     return this.http.get<PostsResponse>(environment.posts_url, {
       reportProgress: false
     }).pipe(
+      delay(3000),
       map((response) => {
         const users: { [s: string]: User } = { };
         response.posts.forEach((value: Post, index: number, array: Post[]) => {
@@ -38,7 +39,6 @@ export class UsersService {
           return user.id === id;
         });
       }),
-      delay(2000),
       switchMap(() => {
         return throwError('User loading error!');
       })
