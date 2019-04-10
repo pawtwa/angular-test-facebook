@@ -1,3 +1,13 @@
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/pawtwa/angular-test-facebook/compare/v1.2.0...v1.2.1) (2019-04-10)
+
+
+### Features
+
+* **cache:** add cache service date validation ([24a48c8](https://github.com/pawtwa/angular-test-facebook/commit/24a48c8))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/pawtwa/angular-test-facebook/compare/v1.1.0...v1.2.0) (2019-04-10)
 
