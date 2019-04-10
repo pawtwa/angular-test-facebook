@@ -2,9 +2,9 @@ import { TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import * as Ajv from 'ajv';
 
-import { environment } from './../../../environments/environment';
+import { environment } from '../../../environments/environment';
 import { PostsService } from './posts.service';
-import * as SCHEMA from './../../../docs/posts.schema.json';
+import * as SCHEMA from '../../../docs/posts.schema.json';
 import { Post } from '../interfaces/post.interface';
 
 function fakePost(): Post {

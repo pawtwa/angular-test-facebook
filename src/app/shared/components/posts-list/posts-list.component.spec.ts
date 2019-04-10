@@ -1,10 +1,10 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PostsListComponent } from './posts-list.component';
-import { Posts } from '../../interfaces/posts.interface';
 import { PostsListItemComponent } from '../posts-list-item/posts-list-item.component';
-import { PostsService } from '../../services/posts.service';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
+// import { PostsService } from 'src/app/shared/services/posts.service';
+import { Posts } from 'src/app/shared/interfaces/posts.interface';
 
 describe('PostsListComponent', () => {
   let component: PostsListComponent;
@@ -16,7 +16,9 @@ describe('PostsListComponent', () => {
       imports: [
         HttpClientTestingModule
       ],
-      providers: [PostsService]
+      providers: [
+        // PostsService
+      ]
     })
     .compileComponents();
   }));

@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PostsListComponent } from './components/posts-list/posts-list.component';
-import { PostsListItemComponent } from './components/posts-list-item/posts-list-item.component';
-import { PostsService } from './services/posts.service';
+import { PostsRoutingModule } from './posts-routing.module';
+import { PostPageComponent } from './pages/post-page/post-page.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
-  declarations: [PostsListComponent, PostsListItemComponent],
+  declarations: [PostPageComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    PostsRoutingModule,
+    SharedModule
   ],
   exports: [
-    PostsListComponent
   ],
   providers: [
-    PostsService
   ]
 })
 export class PostsModule { }

@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
-import { PostsService } from '../../services/posts.service';
-import { PostsResponse } from '../../interfaces/responses/posts-response.interface';
-import { Posts } from '../../interfaces/posts.interface';
+import { Posts } from 'src/app/shared/interfaces/posts.interface';
+import { PostsService } from 'src/app/shared/services/posts.service';
+import { PostsResponse } from 'src/app/shared/interfaces/responses/posts-response.interface';
 
 @Component({
   selector: 'app-posts-list',

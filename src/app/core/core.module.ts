@@ -4,10 +4,11 @@ import { registerLocaleData } from '@angular/common';
 import localePL from '@angular/common/locales/pl';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AppRoutingModule } from './core-routing.module';
+import { CoreRoutingModule } from './core-routing.module';
 import { AppComponent } from './components/app/app.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
-import { PostsModule } from '../posts/posts.module';
+import { PostsService } from '../shared/services/posts.service';
+import { SharedModule } from '../shared/shared.module';
 
 registerLocaleData(localePL);
 
@@ -19,14 +20,15 @@ registerLocaleData(localePL);
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule,
-    PostsModule
+    CoreRoutingModule,
+    SharedModule
   ],
   providers: [
+    PostsService,
     {
       provide: LOCALE_ID, useValue: 'pl'
     }
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class CoreModule { }
