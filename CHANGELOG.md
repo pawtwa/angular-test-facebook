@@ -1,3 +1,13 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/pawtwa/angular-test-facebook/compare/v1.2.2...v2.0.0) (2019-04-10)
+
+
+### Features
+
+* **users:** support sign-up & sign-in ([ed67ae3](https://github.com/pawtwa/angular-test-facebook/commit/ed67ae3))
+
+
+
 <a name="1.2.2"></a>
 ## [1.2.2](https://github.com/pawtwa/angular-test-facebook/compare/v1.2.1...v1.2.2) (2019-04-10)
 
