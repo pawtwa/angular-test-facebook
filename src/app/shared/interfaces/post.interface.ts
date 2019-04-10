@@ -1,13 +1,9 @@
-interface Author {
-    id: string;
-    name: string;
-    avatar_url: string;
-}
+import { User } from 'src/app/users/interfaces/user.interface';
 
 export interface Post {
     id: string;
     created_time: string;
-    author: Author;
+    author: User;
     body: string;
     images: string[];
 }

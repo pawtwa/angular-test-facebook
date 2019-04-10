@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { CoreRoutingModule } from './core-routing.module';
 import { AppComponent } from './components/app/app.component';
-import { HomePageComponent } from './components/home-page/home-page.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 import { PostsService } from '../shared/services/posts.service';
 import { SharedModule } from '../shared/shared.module';
 

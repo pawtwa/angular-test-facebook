@@ -1,0 +1,16 @@
+<ng-container *ngIf="user">
+  <div class="media">
+    <img class="mr-3" [src]="user.avatar_url" [alt]="user.name">
+    <div class="media-body">
+      <h5 class="mt-0">{{ user.name }}</h5>
+    </div>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="!user && !error">
+  <h4>Loading User ...</h4>
+</ng-container>
+
+<ng-container *ngIf="error">
+  <p class="alert alert-danger">{{ error }}</p>
+</ng-container>

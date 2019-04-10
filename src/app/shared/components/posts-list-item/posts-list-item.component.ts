@@ -15,15 +15,15 @@ export class PostsListItemComponent implements OnInit {
   constructor(private changeDetector: ChangeDetectorRef) { }
 
   ngOnInit() {
-    setTimeout(() => {
-      this.changeDetector.detectChanges();
-    }, 500);
+    // setTimeout(() => {
+    //   this.changeDetector.detectChanges();
+    // }, 500);
   }
 
   getAuthorLink() {
     console.log('getAuthorLink');
     // synchro: Model -> View
-    return `/author/${this.post.author.id}`;
+    return `/users/${this.post.author.id}`;
   }
 
   getPostLink() {
