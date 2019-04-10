@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "changelog": "git-changelog -e",
-    "conv_changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "old_changelog": "git-changelog -e",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "predeploy": "ng build --prod --base-href=\"/angular-test-facebook/\" --deploy-url=\"\"",
     "deploy": "gh-pages -d dist/angular-test-facebook/"
   },
@@ -49,7 +49,6 @@
     "conventional-changelog-cli": "^2.0.12",
     "generate-changelog": "^1.7.1",
     "gh-pages": "^2.0.1",
-    "git-changelog": "^1.1.2",
     "husky": "^1.3.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
