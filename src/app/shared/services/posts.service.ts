@@ -15,7 +15,9 @@ export class PostsService {
   constructor(private http: HttpClient) {}
 
   getPosts(): Observable<PostsResponse> {
-    return this.http.get<PostsResponse>(environment.posts_url);
+    return this.http.get<PostsResponse>(environment.posts_url, {
+      reportProgress: false
+    });
   }
 
   getPostById(id: string): Observable<Post> {

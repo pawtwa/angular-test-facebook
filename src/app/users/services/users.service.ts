@@ -16,7 +16,9 @@ export class UsersService {
   constructor(private http: HttpClient) {}
 
   getUsers(): Observable<UsersResponse> {
-    return this.http.get<PostsResponse>(environment.posts_url).pipe(
+    return this.http.get<PostsResponse>(environment.posts_url, {
+      reportProgress: false
+    }).pipe(
       map((response) => {
         const users: { [s: string]: User } = { };
         response.posts.forEach((value: Post, index: number, array: Post[]) => {
