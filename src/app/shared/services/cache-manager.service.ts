@@ -21,10 +21,19 @@ export class CacheManagerService {
 
   has(req: HttpRequest<any>) {
     const has = this.cache.has(req.url);
+    if (has) {
+      const cacheTimestamp = this.cache.get(req.url).date.getTime();
+      const timeDiff = Math.round(Math.abs((new Date()).getTime() - cacheTimestamp) / 1000);
+      console.log('timeDiff', timeDiff);
+      if (timeDiff > 15) {
+        this.remove(req);
+        return false;
+      }
+    }
     return has;
   }
 
-  remove() {
-
+  private remove(req: HttpRequest<any>): boolean {
+    return this.cache.delete(req.url);
   }
 }
