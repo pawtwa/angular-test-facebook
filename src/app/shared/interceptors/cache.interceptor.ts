@@ -14,10 +14,10 @@ export class CacheInterceptor implements HttpInterceptor {
   ) { }
 
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-    // if (this.cacheManagerService.has(req)) {
-    //   console.log('from cache');
-    //   return of(this.cacheManagerService.get(req));
-    // }
+    if (this.cacheManagerService.has(req)) {
+      console.log('from cache');
+      return of(this.cacheManagerService.get(req));
+    }
     return next.handle(req).pipe(
       filter(evt => evt instanceof HttpResponse),
       tap((res: HttpEvent<any>) => {
