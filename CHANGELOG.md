@@ -1,3 +1,23 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/pawtwa/angular-test-facebook/compare/v1.0.2...v1.0.3) (2019-04-10)
+
+
+
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/pawtwa/angular-test-facebook/compare/v1.0.1...v1.0.2) (2019-04-10)
+
+
+
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/pawtwa/angular-test-facebook/compare/v1.0.0...v1.0.1) (2019-04-10)
+
+
+### Features
+
+* **changelog:** configure conventional changelog ([d51c0fc](https://github.com/pawtwa/angular-test-facebook/commit/d51c0fc))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/pawtwa/angular-test-facebook/compare/57ed5b8...v1.0.0) (2019-04-09)
 
